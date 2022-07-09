@@ -19,7 +19,7 @@ namespace GodofWorlds
 
         public void Awake()
         {
-            Item leviathanAxe = new Item("leviathanaxe", "leviathanaxe", "Assets");
+            Item leviathanAxe = new Item("leviathanaxe", "leviathanaxe");
             leviathanAxe.Crafting.Add(CraftingTable.Forge, 3);
             leviathanAxe.Name.English("Leviathan Axe"); // You can use this to fix the display name in code
             leviathanAxe.Description.English("An axe made the stop the gods.");
