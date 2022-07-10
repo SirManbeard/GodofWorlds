@@ -19,18 +19,30 @@ namespace GodofWorlds
 
         public void Awake()
         {
-            Item leviathanAxe = new Item("leviathanaxe", "smb_leviathanaxe");
-            leviathanAxe.Crafting.Add(CraftingTable.Forge, 3);
-            leviathanAxe.Name.English("Leviathan Axe"); // You can use this to fix the display name in code
-            leviathanAxe.Description.English("An axe made the stop the gods.");
-            leviathanAxe.RequiredItems.Add("Iron", 20);
-            leviathanAxe.RequiredItems.Add("FrozenFlameIngot", 10);
-            leviathanAxe.RequiredItems.Add("Silver", 5);
-            leviathanAxe.RequiredUpgradeItems.Add("Iron", 12);
-            leviathanAxe.RequiredUpgradeItems.Add("FrozenFlameIngot", 2);
-            leviathanAxe.RequiredUpgradeItems.Add("Silver", 2);
-            leviathanAxe.CraftAmount = 1;
-
+            Item leviathanAxe1H = new Item("leviathanweapons", "SMB_LeviathanAxe1H");
+            leviathanAxe1H.Crafting.Add(CraftingTable.Forge, 3);
+            leviathanAxe1H.Name.English("Leviathan Axe - One Hand"); // You can use this to fix the display name in code
+            leviathanAxe1H.Description.English("An axe made the stop the gods.");
+            leviathanAxe1H.RequiredItems.Add("Iron", 15);
+            leviathanAxe1H.RequiredItems.Add("FrozenFlameIngot", 8);
+            leviathanAxe1H.RequiredItems.Add("Silver", 3);
+            leviathanAxe1H.RequiredUpgradeItems.Add("Iron", 7);
+            leviathanAxe1H.RequiredUpgradeItems.Add("FrozenFlameIngot", 1);
+            leviathanAxe1H.RequiredUpgradeItems.Add("Silver", 1);
+            leviathanAxe1H.CraftAmount = 1;
+            
+            Item leviathanAxe2H = new Item("leviathanweapons", "SMB_LeviathanAxe2H");
+            leviathanAxe2H.Crafting.Add(CraftingTable.Forge, 3);
+            leviathanAxe2H.Name.English("Leviathan Axe - Two Hand"); // You can use this to fix the display name in code
+            leviathanAxe2H.Description.English("An axe made the stop the gods.");
+            leviathanAxe2H.RequiredItems.Add("Iron", 20);
+            leviathanAxe2H.RequiredItems.Add("FrozenFlameIngot", 10);
+            leviathanAxe2H.RequiredItems.Add("Silver", 5);
+            leviathanAxe2H.RequiredUpgradeItems.Add("Iron", 12);
+            leviathanAxe2H.RequiredUpgradeItems.Add("FrozenFlameIngot", 2);
+            leviathanAxe2H.RequiredUpgradeItems.Add("Silver", 2);
+            leviathanAxe2H.CraftAmount = 1;
+            
         }
     }
 }

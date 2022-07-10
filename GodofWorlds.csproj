@@ -101,6 +101,7 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <EmbeddedResource Include="assets\leviathanaxe" />
+    <Content Include="assets\leviathanweapons" />
     <Content Include="ILRepack.targets" />
     <Content Include="Libs\ServerSync.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
