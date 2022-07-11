@@ -1,4 +1,7 @@
-﻿# Item Manager
+﻿God of Worlds
+* README.MD will be updated, pending plugin completion*
+
+# Item Manager
 
 Can be used to easily add new items to Valheim. Will automatically add config options to your mod and sync the configuration from a server, if the mod is installed on the server as well.
 
