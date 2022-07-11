@@ -7,8 +7,8 @@
     <ProjectGuid>{4358610B-F3F4-4843-B7AF-98B7BC60DCDE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GodofWorlds</RootNamespace>
-    <AssemblyName>GodofWorlds</AssemblyName>
+    <RootNamespace>GodOfWorlds</RootNamespace>
+    <AssemblyName>GodOfWorlds</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <LangVersion>10</LangVersion>
@@ -100,8 +100,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
-    <EmbeddedResource Include="assets\leviathanaxe" />
-    <Content Include="assets\leviathanweapons" />
+    <EmbeddedResource Include="assets\leviathanwep" />
     <Content Include="ILRepack.targets" />
     <Content Include="Libs\ServerSync.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

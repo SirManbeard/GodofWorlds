@@ -20,8 +20,8 @@ public enum CraftingTable
     [InternalName("piece_workbench")] Workbench,
     [InternalName("piece_cauldron")] Cauldron,
     [InternalName("forge")] Forge,
-    [InternalName("piece_artisanstation")] ArtisanTable,
-    [InternalName("piece_stonecutter")] StoneCutter,
+    [InternalName("piece_artisanStation")] ArtisanTable,
+    [InternalName("piece_stoneCutter")] StoneCutter,
     Custom
 }
 
@@ -181,7 +181,7 @@ public class Item
             }
             else
             {
-                string key = "$itemdesc_" + Prefab.name.Replace(" ", "_");
+                string key = "$itemDesc_" + Prefab.name.Replace(" ", "_");
                 _description = new LocalizeKey(key).English(data.m_description);
                 data.m_description = key;
             }
