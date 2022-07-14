@@ -19,31 +19,31 @@ namespace GodOfWorlds
 
         public void Awake()
         {
-            Item leviathanAxe1H = new Item("leviathanwep", "SMB_LeviathanAxe1H");
-            leviathanAxe1H.Crafting.Add(CraftingTable.Forge, 3);
-            leviathanAxe1H.Name.English("Leviathan Axe"); // You can use this to fix the display name in code
-            leviathanAxe1H.Description.English("An Axe fit for a god, to end a god.");
-            leviathanAxe1H.RequiredItems.Add("Iron", 15);
-            leviathanAxe1H.RequiredItems.Add("Copper", 8);
-            leviathanAxe1H.RequiredItems.Add("Silver", 3);
-            leviathanAxe1H.RequiredUpgradeItems.Add("Iron", 7);
-            leviathanAxe1H.RequiredUpgradeItems.Add("Copper", 1);
-            leviathanAxe1H.RequiredUpgradeItems.Add("Silver", 1);
-            leviathanAxe1H.CraftAmount = 1;
+            Item frostfireAxe1H = new Item("godofworlds", "SMB_FrostfireAxe1H");
+            frostfireAxe1H.Crafting.Add(CraftingTable.Forge, 3);
+            frostfireAxe1H.Name.English("Frostfire Axe One Han"); // You can use this to fix the display name in code
+            frostfireAxe1H.Description.English("An Axe fit for a god, to end a god.");
+            frostfireAxe1H.RequiredItems.Add("Iron", 15);
+            frostfireAxe1H.RequiredItems.Add("Copper", 8);
+            frostfireAxe1H.RequiredItems.Add("Silver", 3);
+            frostfireAxe1H.RequiredUpgradeItems.Add("Iron", 7);
+            frostfireAxe1H.RequiredUpgradeItems.Add("Copper", 1);
+            frostfireAxe1H.RequiredUpgradeItems.Add("Silver", 1);
+            frostfireAxe1H.CraftAmount = 1;
             
-            Item leviathanAxe2H = new Item("leviathanwep", "SMB_LeviathanAxe2H");
-            leviathanAxe2H.Crafting.Add(CraftingTable.Forge, 3);
-            leviathanAxe2H.Name.English("Leviathan Axe Heavy"); // You can use this to fix the display name in code
-            leviathanAxe2H.Description.English("An axe made the stop the gods. But much bigger.");
-            leviathanAxe2H.RequiredItems.Add("Iron", 15);
-            leviathanAxe2H.RequiredItems.Add("Copper", 8);
-            leviathanAxe2H.RequiredItems.Add("Silver", 3);
-            leviathanAxe2H.RequiredUpgradeItems.Add("Iron", 7);
-            leviathanAxe2H.RequiredUpgradeItems.Add("Copper", 1);
-            leviathanAxe2H.RequiredUpgradeItems.Add("Silver", 1);
-            leviathanAxe2H.CraftAmount = 1;
+            Item frostfireAxe2H = new Item("godofworlds", "SMB_FrostfireAxe2H");
+            frostfireAxe2H.Crafting.Add(CraftingTable.Forge, 3);
+            frostfireAxe2H.Name.English("Frostfire Axe Two Hand"); // You can use this to fix the display name in code
+            frostfireAxe2H.Description.English("An axe made the stop the gods. But much bigger.");
+            frostfireAxe2H.RequiredItems.Add("Iron", 15);
+            frostfireAxe2H.RequiredItems.Add("Copper", 8);
+            frostfireAxe2H.RequiredItems.Add("Silver", 3);
+            frostfireAxe2H.RequiredUpgradeItems.Add("Iron", 7);
+            frostfireAxe2H.RequiredUpgradeItems.Add("Copper", 1);
+            frostfireAxe2H.RequiredUpgradeItems.Add("Silver", 1);
+            frostfireAxe2H.CraftAmount = 1;
             
-            Item leviathanAxe1Htest = new Item("leviathanwep", "SMB_LeviathanAxe1H_TEST");
+            Item leviathanAxe1Htest = new Item("godofworlds", "SMB_LeviathanAxe1H_TEST");
             leviathanAxe1Htest.Crafting.Add(CraftingTable.Forge, 3);
             leviathanAxe1Htest.Name.English("Leviathan Axe One Hand TEST"); // You can use this to fix the display name in code
             leviathanAxe1Htest.Description.English("An Axe fit for a god, to end a god.TEST");
@@ -55,17 +55,29 @@ namespace GodOfWorlds
             leviathanAxe1Htest.RequiredUpgradeItems.Add("Silver", 1);
             leviathanAxe1Htest.CraftAmount = 1;
             
-            Item guardianShield = new Item("leviathanwep", "SMB_GuardianShield");
-            guardianShield.Crafting.Add(CraftingTable.Forge, 3);
-            guardianShield.Name.English("Guardian Shield"); // You can use this to fix the display name in code
-            guardianShield.Description.English("A shield made to stop the gods.");
-            guardianShield.RequiredItems.Add("Iron", 15);
-            guardianShield.RequiredItems.Add("Copper", 8);
-            guardianShield.RequiredItems.Add("Silver", 3);
-            guardianShield.RequiredUpgradeItems.Add("Iron", 7);
-            guardianShield.RequiredUpgradeItems.Add("Copper", 1);
-            guardianShield.RequiredUpgradeItems.Add("Silver", 1);
-            guardianShield.CraftAmount = 1;
+            Item frostfireShield = new Item("godofworlds", "SMB_FrostfireShield");
+            frostfireShield.Crafting.Add(CraftingTable.Forge, 3);
+            frostfireShield.Name.English("Frostfire Shield"); // You can use this to fix the display name in code
+            frostfireShield.Description.English("A shield made to stop the gods.");
+            frostfireShield.RequiredItems.Add("Iron", 15);
+            frostfireShield.RequiredItems.Add("Copper", 8);
+            frostfireShield.RequiredItems.Add("Silver", 3);
+            frostfireShield.RequiredUpgradeItems.Add("Iron", 7);
+            frostfireShield.RequiredUpgradeItems.Add("Copper", 1);
+            frostfireShield.RequiredUpgradeItems.Add("Silver", 1);
+            frostfireShield.CraftAmount = 1;
+            
+            Item frostfireBow = new Item("godofworlds", "SMB_Frostfire_Bow");
+            frostfireBow.Crafting.Add(CraftingTable.Forge, 3);
+            frostfireBow.Name.English("Frostfire Bow"); // You can use this to fix the display name in code
+            frostfireBow.Description.English("The right bow in the right hand has great power.");
+            frostfireBow.RequiredItems.Add("Iron", 15);
+            frostfireBow.RequiredItems.Add("Copper", 8);
+            frostfireBow.RequiredItems.Add("Silver", 3);
+            frostfireBow.RequiredUpgradeItems.Add("Iron", 7);
+            frostfireBow.RequiredUpgradeItems.Add("Copper", 1);
+            frostfireBow.RequiredUpgradeItems.Add("Silver", 1);
+            frostfireBow.CraftAmount = 1;
         }
     }
 }
